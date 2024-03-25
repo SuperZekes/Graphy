@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.set_page_config("Coke vs Pepsi", page_icon="🥤", layout="wide")
+st.set_page_config("Coke Vs Pepsi", page_icon="🥤", layout="wide")
 
 # Generate random data for demonstration
 chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["This is not true info!", "Coke", "Pepsi"])
